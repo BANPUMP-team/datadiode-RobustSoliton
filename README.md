@@ -16,19 +16,17 @@ From Source
     pip install -e .
 
 # Usage
-Basic operation:
+    Basic operation:
 
-Run the sender:
+    Run the sender:
+    datadiode-RobustSoliton send [options] file_to_send
 
-datadiode-RobustSoliton send [options] file_to_send
+    Run the receiver:
+    datadiode-RobustSoliton receive [options] output_file
 
-Run the receiver:
+    For more details on options, run:
 
-datadiode-RobustSoliton receive [options] output_file
-
-For more details on options, run:
-
-datadiode-RobustSoliton --help
-datadiode-RobustSoliton send --help
-datadiode-RobustSoliton receive --help
+    datadiode-RobustSoliton --help
+    datadiode-RobustSoliton send --help
+    datadiode-RobustSoliton receive --help
 
